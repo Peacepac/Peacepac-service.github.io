@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.no-gutters h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px; 
+    line-height: 84px;
+    letter-spacing: -0.03em;
+}
+    
+
+
+
+.btn {
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    background: #FF6433;
+    border-radius: 12px;
+    display: inline-block;
+    color: #fff;
+    border: none;
+}
+
+ /* maintainance and services */
+#services{
+    padding: 50px;
+}
+.bg{
+    background: #F5F5F5;
+    padding-top: 50px;
+ }
+ 
+ .card-img-top{
+     width:100%;
+     padding: 30px;
+     
+ }
+ 
+ .mechanic1{
+     display: flex;
+ }
+
+ .mechanic{
+    display: flex;
+}
+
+ .btn2{
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: bold;
+     /* padding:2px; */
+ }
+ 
+  
+ .two-form-section{
+     padding-left:30px;
+ }
+ form{
+     margin-top: 20px;
+     
+ }
+ .box-alignment{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+     margin: auto;
+ }
+ .box-set{
+     justify-content: center;
+     align-items: center;
+     padding: 40px;
+     height: 180px;
+     width: 200px;
+     text-align: center;
+     margin-right: 1%;
+     margin-bottom: 1%;
+    
+ }
+ .box-set p{
+     padding-top: 5px;
+ } 
+ 
+ .box-set:hover{
+       font-weight: bold;
+
+ }
+ 
+ .selected{
+     background-color: #FF6433;
+     color: white;
+     font-weight: bold;
+ }
+ 
+/* our procedure or process section  */
+.padding-section{
+    padding: 8% 0;
+}
+.process-text{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.process-text h2{
+    padding-top: 20px;
+  
+    font-size: 30px;
+}
+
+div-icon p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    
+    letter-spacing: -0.03em;
+    
+    }
+
+    .div-image-con{
+        padding-top: 60px;
+    }
+    
+    .process-taken{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .get-quote h4{
+        font-size: 26px;
+        padding-top: 48px;
+    }
+    .get-quote p{
+        
+        opacity: 0.6;
+    }
+    .img-div{
+       
+        width: 50px;
+      
+    }
+ 
+/* .padding-section{
+    padding: 8% 0;
+}
+.process-text{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.process-text h2{
+    padding-top: 20px;
+  
+    font-size: 30px;
+}
+
+div-icon p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    
+    letter-spacing: -0.03em;
+    
+    }
+    
+    .div-image-con{
+        padding-top: 60px;
+    }
+    
+    .process-taken{
+        width: 45%;
+        margin: 0 auto;
+    }
+    .get-quote h4{
+        font-size: 26px;
+        padding-top: 48px;
+    }
+    .get-quote p{
+        
+        opacity: 0.6;
+    }
+    .img-div{
+       
+        width: 50px;
+      
+    }
+ */
+
+ .process_flex{
+     text-align: center;
+     display: flex;
+     justify-content: space-around;
+ }
+ .left-header p{
+     display: inline;
+ }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+       .mechanic1{
+           display: flex;
+           flex-direction: column;
+       }
+       .card1{
+           margin-bottom: 20px;
+       }
+
+       .container-fluid{
+         display: flex;
+         flex-direction: column;
+       }
+
+       .process_flex{
+        display: flex;
+        flex-direction: column;
+       }
+      }
